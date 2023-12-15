@@ -71,7 +71,7 @@ function draw() {
       }
 
     //top left
-    if (x + border < 18 && y + border < 45) {
+    if (x + border < 12 && y + border < 45) {
       col1 = x/255*300;
       col2 = y/255*50;
       col3 = x/255*70;
@@ -102,4 +102,4 @@ function draw() {
         col2 = 0;
         col3 = 0;
       }
-}
+  }
